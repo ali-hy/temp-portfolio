@@ -1,0 +1,96 @@
+body {
+    background-color: #F0F4F5;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-link:active {
+    color: white;
+}
+
+.navbar-brand.code {
+    font-family: "Cascadia Mono", monospace;
+}
+
+.code {
+    font-family: "Cascadia Code", "Source Code Pro", sans-serif;
+}
+
+.page-image {
+    background-size: cover;
+    min-height: 100%;
+}
+
+main {
+    flex-grow: 1;
+}
+
+main > .row {
+    height: 100%;
+}
+
+/* ---- HOME PAGE ----*/
+#homepage-image {
+    background-image: url("/assets/homepage-image.jpg");
+    background-position-x: 70%;
+}
+
+/* ---- BIO  ----*/
+#bio-image {
+    background-image: url("/assets/bio-image.jpg");
+    background-position-x: right;
+}
+
+p.text-muted {
+    color: #777;
+}
+
+/* ---- PORTFOLIO ---- */
+.portfolio-wrapper {
+    background-color: #fff;
+    height: 100%;
+    overflow: auto
+}
+
+.portfolio-wrapper .preview {
+    border-radius: 20px;
+}
+
+/* ---- ELEVATOR PITCH ---- */
+#elevator-image {
+    background-image: url("/assets/elevator.jpg");
+    background-position: center;
+}
+
+/* ---- ANIMATION ---- */
+.animate-typing::after {
+    content: "";
+    display: inline-block;
+    height: 1em;
+    width: 2px;
+    background-color: black;
+    animation: 1s linear 0s infinite normal forwards typing-animation;
+}
+
+.animate-typing.typing::after {
+    animation: none;
+}
+
+@keyframes typing-animation {
+    0% {
+        opacity: 1;
+    }
+    33% {
+        opacity: 1;
+    }
+    34% {
+        opacity: 0;
+    }
+    66% {
+        opacity: 0;
+    }
+    67% {
+        opacity: 1;
+    }
+}
