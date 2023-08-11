@@ -32,13 +32,13 @@ main > .row {
 
 /* ---- HOME PAGE ----*/
 #homepage-image {
-    background-image: url("/assets/homepage-image.jpg");
+    background-image: url("../assets/homepage-image.jpg");
     background-position-x: 70%;
 }
 
 /* ---- BIO  ----*/
 #bio-image {
-    background-image: url("/assets/bio-image.jpg");
+    background-image: url("../assets/bio-image.jpg");
     background-position-x: right;
 }
 
@@ -59,7 +59,7 @@ p.text-muted {
 
 /* ---- ELEVATOR PITCH ---- */
 #elevator-image {
-    background-image: url("/assets/elevator.jpg");
+    background-image: url("../assets/elevator.jpg");
     background-position: center;
 }
 
