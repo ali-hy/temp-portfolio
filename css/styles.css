@@ -1,9 +1,10 @@
 body {
     background-color: #F0F4F5;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
+    /*height: 100vh;*/
+    /*display: flex;*/
+    /*flex-direction: column;*/
 }
+
 
 .nav-link:active {
     color: white;
