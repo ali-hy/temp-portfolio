@@ -53,7 +53,8 @@ p.text-muted {
 /* ---- PORTFOLIO ---- */
 .portfolio-wrapper {
     background-color: #fff;
-    overflow: auto
+    overflow-y: auto;
+    -ms-overflow-y: auto;
 }
 
 .portfolio-wrapper .preview {
