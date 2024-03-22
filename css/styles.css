@@ -43,11 +43,33 @@ main > .row {
 /* ---- BIO  ----*/
 #bio-image {
     background-image: url("../assets/bio-image.jpg");
-    background-position-x: right;
+    background-position: right center;
+    background-size: 110%;
 }
 
 p.text-muted {
     color: #777;
+}
+
+.link-box {
+    background-color: #ffffff;
+    width: 50%;
+    left: 0;
+}
+
+.icon-link {
+    display: block;
+    height: 2rem;
+    overflow: clip;
+}
+
+.leetcode-icon {
+    scale: 1.1;
+    transform: translateY(8%);
+}
+
+.text-xsmall {
+    font-size: 10pt;
 }
 
 /* ---- PORTFOLIO ---- */
@@ -65,12 +87,6 @@ p.text-muted {
     .portfolio-wrapper {
         height: 100%;
     }
-}
-
-/* ---- ELEVATOR PITCH ---- */
-#elevator-image {
-    background-image: url("../assets/elevator.jpg");
-    background-position: center;
 }
 
 /* ---- ANIMATION ---- */
