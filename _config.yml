@@ -1,5 +1,5 @@
 ---
-destination: ./docs
+destination: .
 livereload: true
 domain: ali-hy.github.io
 url: https://ali-hy.github.io/
